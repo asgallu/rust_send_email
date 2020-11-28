@@ -49,5 +49,5 @@ fn main() {
     } else {
         println!("No se puede enviar email: {:?}", result);
     }
-    assert!(result.is_ok());
+    assert!(result.is_ok());    
 }
